@@ -8,7 +8,7 @@ parser = argparse.ArgumentParser(description='Simple converter mp3/mp4 (Japanese
 
 # add arguments
 parser.add_argument('input_mp', type=str, help='mp3 or mp4 in Japanese')
-parser.add_argument('out_json', type=str, help='output file (json)')
+#parser.add_argument('out_json', type=str, help='output file (json)')
 
 # parse the arguments
 args = parser.parse_args()
